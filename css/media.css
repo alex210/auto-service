@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 12px; }
+  .phone {
+    margin-right: 2%;
+    margin-top: 40px; }
+  .feedback {
+    margin-left: 0;
+    margin-right: 2%;
+    margin-top: 35px; }
+  .logo {
+    position: relative;
+    float: left;
+    margin-left: 1%; }
+  .photo {
+    width: 40%; }
+  .tagline {
+    margin-top: 30px; }
+  .style {
+    font: 1.0625em Roboto, sans-serif; } }
+
+@media (max-width: 480px) {
+  header {
+    height: 450px; }
+  .wrapper-header {
+    text-align: center; }
+  .logo {
+    float: none;
+    display: block;
+    margin: 0 auto; }
+  .phone {
+    float: none; }
+  .feedback {
+    float: none; }
+  .photo {
+    float: none;
+    width: 75%; }
+  .left {
+    width: auto;
+    float: none;
+    margin-left: 0;
+    text-align: center; }
+    .left a {
+      text-decoration: underline;
+      margin-left: 0; }
+    .left ul {
+      width: auto;
+      margin-bottom: 0; }
+    .left li {
+      display: inline-block;
+      border-bottom: none;
+      margin-left: 0; }
+    .left a:hover {
+      margin-left: 0;
+      text-decoration: none; }
+  .right {
+    width: auto;
+    float: none;
+    margin-left: 0;
+    text-align: center; }
+  .menu {
+    width: auto;
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px; }
+  .vacancies {
+    width: auto; }
+  .menu__equipment, .equipment {
+    display: none; }
+  .center {
+    width: 85%; }
+  .menu__vacancies, .vacancies {
+    display: none; }
+  form, .accepted {
+    width: 90%;
+    font-size: 16px;
+    margin-left: -45%; } }
